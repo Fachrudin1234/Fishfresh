@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/** navbar **/
+
+.logodiv {
+    display: flex;
+}
+
+.logtexs {
+    left: 80px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 5px;
+    color: #48CAE4;
+}
+
+.navbar {
+    display: flex;
+    background: #03045E;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logonav {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    padding: 25px;
+    font-weight: bold;
+}
+
+
+.navlist {
+    display: inline-block;
+
+}
+
+.login1 {
+    margin-right: 15px;
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+.singup1 {
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #00B4D8;
+}
+
+.navbar .menu_navbar .navlist .menu {
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.singup1:hover {
+    background: #00B4D8;
+    transition: .5s;
+}
+
+.menu:hover {
+    background: #00B4D8;
+    transition: .5s;
+}
+
+
+/** logo **/
+
+.div_logo {
+    display: flex;
+    width: 50%;
+}
+
+.logo1 {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 550px;
+    height: 550px;
+}
+
+/** css signup **/
+
+
+.error-msg {
+    text-align: center;
+    width: 20%;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.emr1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.div_boxsignup {
+    display: flex;
+    height: 550px;
+    justify-content: center;
+}
+
+.card_sigup {
+    display: flex;
+    width: 35%;
+    background-color: #023E8A;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+}
+
+.inp_reg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 13px;
+}
+
+.inp_reg2 {
+    margin-top: 40px;
+}
+
+.btn_submid {
+    background-color: #0096C7;
+    border: 0px;
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 0 50px;
+    cursor: pointer;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border-radius: 20px;
+    margin: 13px;
+    margin-left: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn_submid:hover {
+    background-color: #48CAE4;
+    color: white;
+}
+
+.reg_teks {
+    padding: 40px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #48CAE4;
+}
+
+/** nav bawah**/
+
+.narbar_bawah {
+    margin-top: 70px;
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.lnb {
+    display: inline-block;
+    margin-right: 40px;
+}
